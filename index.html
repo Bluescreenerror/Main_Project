@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSS- Main Project">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Bean Boutique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Asset&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./JS/custom-js.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="./Images/bean-boutique-high-resolution-logo-transparent.png" alt="Bean Boutique Logo"></a>
+        </div>
+        <nav>
+            <menu>
+                <li><a href="product.html">Our Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <section class="masthead">
+            <div class="video-container">
+                <video id="background-video" autoplay loop muted>
+                    <source src="./Videos/production_id_4081317_(2160p).mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="heading">
+                <h1>Discover the Perfect Brew.</h1>
+                <p>Experience the richness of every bean with our state-of-the-art espresso maker</p>
+                <a id="home-button" href="product.html">Get BoutiqueBrew</a>
+            </div>
+        </section>
+    </main>
+    <div class="cards">
+        <div class="card-1">
+            <p>
+                “...the single most flavorful cup of coffee I've ever had from a single-serve machine.”
+            </p>
+            <span class="quote">- Brice Kingsly, Owner of KoffeeWithMe on Youtube</span>
+        </div>
+        <div class="card-2">
+            <p>
+                “Most countertop machines don't come with an app-powered barista, willing to make absolutely anything your coffee-fuelled heart desires.”
+            </p>
+            <span class="quote">- Jane Doe, Lifestyle Influencer</span>
+        </div>
+        <div class="card-3">
+            <p>“If you're a coffee lover who appreciates modern technology, this could be your new best friend.” </p>
+            <span class="quote">- Kate White, Author of TechBlogs </span> 
+        </div>
+        
+    </div>
+    <div class="holiday-offer">
+        <div class="image-container">        
+            <img src="./Images/Machine-1-(1).png" alt="Espresso Machine Picture">
+            <div class="hover-text" id="text-1">
+                BoutiqueBrew Samurai
+            </div>
+        </div>
+        <div class="holiday-text">
+            <h3>Holiday Sale!</h3>
+            <span class="price-then">$1199</span>
+            <span class="price-now">$799</span>
+            <h3>Enter coupon code: <span class="coupon">HOLIDAY23</span></h3>
+        </div>
+        <div class="image-container">        
+            <img src="./Images/Machine-1-(2).png" alt="Espresso Machine Picture">
+            <div class="hover-text" id="text-2">
+                BoutiqueBrew Ninja
+            </div>
+        </div>
+    </div>
+    <section class="home-to-about">
+        <div class="hta-text">
+            <h2>Coffee, <span id="hta-span-1">Re-engineered.</span></h2>
+            <h2> Coffee, <span id="hta-span-2">Re-imagined.</span> </h2>
+            <a href="about.html" class="learn-more-btn">Learn More</a>
+        </div>
+        <div class="hta-images">
+            <figure>
+                <video autoplay loop muted>
+                    <source src="./Videos/gforce.mp4" type="video/mp4">
+                </video>
+                <figcaption><span id="hta-span-3">5,000 RPM of Coffee Power.</span> Brewing with a centrifuge to unlock intricate flavor profiles. This is G-Force Infusion.</figcaption>
+            </figure>
+            <figure>
+                <img src="./Images/zerowaste.jpg" alt="Zero Waste Image">
+                <figcaption><span id="hta-span-4">Zero Pods, Zero Waste.</span> We use whole coffee beans instead of disposable filters or pods.</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="subscription">
+        <h2>Bean Boutique Subscription.</h2>
+        <p>Embrace the Bean Boutique subscription for a journey of exquisite flavors delivered right to your doorstep. Each batch is freshly roasted and tailored to ensure the ultimate brewing experience with your Bean Boutique machine.</p>
+        <a href="about.html" class="subscription-btn">Subscribe Now</a>
+    </section>
+    <section class="breaker-section">
+        <div class="breaker-section-card-1">
+            <h2>Endless Coffee to Explore</h2>
+            <p>The World's Largest Coffee Market with 120+ coffee roasters, we have a perfect coffee for you.</p>
+            <a id="breaker-link-1" href="product.html">See our products</a>
+        </div>
+        <div class="breaker-section-card-2">
+            <h2>Want to know our story?</h2>
+            <p>Learn more about us and how we started! There's a lot to know about roasting and how our products give the whole process a new outlook.</p>
+            <a id="breaker-link-2" href="About.html">About Us</a>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>About Bean Boutique</h3>
+                <p>Bean Boutique brings you the finest selection of coffee beans sourced from around the globe. Experience the joy of brewing with our premium products.</p>
+            </div>
+            
+            <div class="footer-form">
+                <h3>Contact Us</h3>
+                <form action="#" method="post">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <p>Stay connected with Bean Boutique:</p>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 Bean Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
